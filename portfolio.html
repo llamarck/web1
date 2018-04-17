@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DevTECH - Soluções em Tecnologia</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                            </button> <a class="navbar-brand" href="index.html">DevTECH</a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="us.html">Quem Somos</a>
+                                </li>
+                                <li>
+                                    <a href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tecnologias<strong class="caret"></strong></a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="tecnologias.html">Java</a>
+                                        </li>
+                                        <li>
+                                            <a href="tecnologias.html">C#</a>
+                                        </li>
+                                        <li>
+                                            <a href="tecnologias.html">PHP</a>
+                                        </li>
+                                        <li>
+                                            <a href="tecnologias.html">JavaScript</a>
+                                        </li>
+                                        <li class="divider">
+                                        </li>
+                                        <li>
+                                            <a href="tecnologias.html">Linux</a>
+                                        </li>
+                                        <li>
+                                            <a href="tecnologias.html">Servidores</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="navbar-form navbar-left" role="search">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" />
+                                </div> 
+                                <button type="submit" class="btn btn-default">
+                                    Buscar
+                                </button>
+                            </form>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-user"></span></button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal" role="dialog">
+                                        <div class="modal-dialog">
+
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form class="form-horizontal">
+                                                        <fieldset>
+
+                                                            <!-- Form Name -->
+                                                            <legend>Login</legend>
+
+                                                            <!-- Text input-->
+                                                            <div class="form-group">
+                                                                <label class="col-md-4 control-label" for="textinput"></label>  
+                                                                <div class="col-md-4">
+                                                                    <span class="glyphicon glyphicon-user"></span><input id="textinput" name="textinput" placeholder="Login" class="form-control input-md" required="" type="text">
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- Password input-->
+                                                            <div class="form-group">
+                                                                <label class="col-md-4 control-label" for="senha"></label>
+                                                                <div class="col-md-4">
+                                                                    <span class="glyphicon glyphicon-lock"></span><input id="senha" name="senha" placeholder="Senha" class="form-control input-md" required="" type="password">
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- Button -->
+                                                            <div class="form-group">
+                                                                <label class="col-md-4 control-label" for="botao"></label>
+                                                                <div class="col-md-4">
+                                                                    <a id="botao" name="botao" class="btn btn-primary" href="indexLogado.html">Entrar</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </fieldset>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </li>
+
+                        </div>
+
+                    </nav>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="html.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>HTML5 - JS - CSS3.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="bootstrap.png" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Framework Bootstrap 3.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="responsive.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>RESPONSIVO.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+    
+    <br>
+    <br>
+    <br>
+    
+<div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-thumbnail" src="empresa1.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Concessionária</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-thumbnail" src="empresa2.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Hotel</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-thumbnail" src="empresa3.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Supermercado</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div><!-- /.col-lg-4 -->
+        
+      </div><!-- /.row -->
+            <div class="row">
+        <div class="col-lg-4">
+          <img class="img-thumbnail" src="empresa4.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Cinema</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-thumbnail" src="empresa5.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Shopping</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-thumbnail" src="empresa6.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Pet Shop</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      
+
+            <div class="row">
+        <div class="col-lg-4">
+          <img class="img-thumbnail" src="empresa7.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Livraria</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-thumbnail" src="empresa8.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Editora</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-thumbnail" src="empresa9.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Jornal</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      
+      <br>
+      <br>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
